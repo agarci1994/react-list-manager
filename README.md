@@ -34,7 +34,7 @@ The app follows best practices using:
 ## 🛠 Installation & Setup
 ### 1️⃣ Clone the repository
 ```sh
-git clone https://github.com/your-repo/react-list-manager.git
+git clone https://github.com/agarci1994/react-list-manager
 cd react-list-manager
 ```
 

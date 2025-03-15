@@ -1,0 +1,48 @@
+@import "tailwindcss";
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap");
+
+@theme {
+  --font-montserrat: "Montserrat", sans-serif;
+}
+@layer base {
+  :root {
+    --primary: #324bff;
+    --gray-bg: #f7f7f7;
+    --border: #cccccc;
+    --gradient-start: #c2e9fb;
+    --gradient-end: #a1c4fd;
+    --shadow-custom: 0px 5px 12px rgba(0, 0, 0, 0.12);
+    font-family: "Montserrat", sans-serif;
+  }
+}
+
+@layer components {
+  .bg-primary {
+    background-color: var(--primary);
+  }
+
+  .text-primary {
+    color: var(--primary);
+  }
+
+  .border-border {
+    border-color: var(--border);
+  }
+
+  .bg-grayBg {
+    background-color: var(--gray-bg);
+  }
+
+  .shadow-custom {
+    box-shadow: var(--shadow-custom);
+  }
+
+  .bg-gradient {
+    background: linear-gradient(
+        135deg,
+        var(--gradient-end) 0%,
+        var(--gradient-start) 100%
+      )
+      0% 0% no-repeat padding-box;
+  }
+}
